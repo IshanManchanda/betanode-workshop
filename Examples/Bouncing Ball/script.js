@@ -1,7 +1,7 @@
 let radius = 60;
 
 // Temporarily assign values
-let x = 0, y = 0, velocity_x = 0, velocity_y = 0;
+let x, y, velocity_x, velocity_y;
 
 
 function setup() {
