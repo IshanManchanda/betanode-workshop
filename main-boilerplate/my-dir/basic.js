@@ -4,4 +4,5 @@ function setup() {
 
 function draw() {
     // add your code here
+    ellipse(35, 35, 23, 24)
 }

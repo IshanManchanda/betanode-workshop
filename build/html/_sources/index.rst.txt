@@ -21,6 +21,8 @@ Topics
 * 'main'
 * Functions
 
+
+
 What is p5.js?
 ===============
 
@@ -29,8 +31,8 @@ p5.js is a JavaScript library. That's all you need to know.
 Getting Started
 ================
 
-Type the following into a text editor::
-
+Type the following into a text editor:
+::
    <html>
      <head>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js">
@@ -43,4 +45,15 @@ Type the following into a text editor::
      </body>
    </html>
 
+Examples with p5
+================
 
+* Rendering a sin wave.
+* Brownian Motion
+* Patterns
+   * *image to draw with a software tool which responds to the speed of the mouse.*
+* Simulating the solar system.
+* Making a simple pendulum.
+* Colliding Spheres.
+* Simulating free fall in different materials.
+* **Snake**
