@@ -31,27 +31,23 @@ p5.js is a JavaScript library. That's all you need to know.
 Getting Started
 ================
 
-Type the following into a text editor:
+Type the following into your script.js file:
 ::
-   <html>
-     <head>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js">
-       </script>
-       <script>
+   function setup() {
+       createCanvas(1000, 500);
+   }
 
-       </script>
-     </head>
-     <body>
-     </body>
-   </html>
+   function draw() {
+       // Draw a circle
+       ellipse(200, 200, 200, 200);
+   }
 
 Examples with p5
 ================
 
 * Rendering a sin wave.
 * Brownian Motion
-* Patterns
-   * *image to draw with a software tool which responds to the speed of the mouse.*
+* Patterns: *image to draw with a software tool which responds to the speed of the mouse.*
 * Simulating the solar system.
 * Making a simple pendulum.
 * Colliding Spheres.

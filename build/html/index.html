@@ -170,18 +170,15 @@
 </div>
 <div class="section" id="getting-started">
 <h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
-<p>Type the following into a text editor:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">html</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">script</span> <span class="n">src</span><span class="o">=</span><span class="s2">&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js&quot;</span><span class="o">&gt;</span>
-    <span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
-    <span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span>
+<p>Type the following into your script.js file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">function</span> <span class="n">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">createCanvas</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+<span class="p">}</span>
 
-    <span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
-  <span class="o">&lt;/</span><span class="n">head</span><span class="o">&gt;</span>
-  <span class="o">&lt;</span><span class="n">body</span><span class="o">&gt;</span>
-  <span class="o">&lt;/</span><span class="n">body</span><span class="o">&gt;</span>
-<span class="o">&lt;/</span><span class="n">html</span><span class="o">&gt;</span>
+<span class="n">function</span> <span class="n">draw</span><span class="p">()</span> <span class="p">{</span>
+    <span class="o">//</span> <span class="n">Draw</span> <span class="n">a</span> <span class="n">circle</span>
+    <span class="n">ellipse</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">);</span>
+<span class="p">}</span>
 </pre></div>
 </div>
 </div>
@@ -190,13 +187,7 @@
 <ul class="simple">
 <li><p>Rendering a sin wave.</p></li>
 <li><p>Brownian Motion</p></li>
-<li><dl class="simple">
-<dt>Patterns</dt><dd><ul>
-<li><p><em>image to draw with a software tool which responds to the speed of the mouse.</em></p></li>
-</ul>
-</dd>
-</dl>
-</li>
+<li><p>Patterns: <em>image to draw with a software tool which responds to the speed of the mouse.</em></p></li>
 <li><p>Simulating the solar system.</p></li>
 <li><p>Making a simple pendulum.</p></li>
 <li><p>Colliding Spheres.</p></li>
