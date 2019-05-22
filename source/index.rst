@@ -1,55 +1,13 @@
-.. Betanode Workshop documentation master file, created by
-   sphinx-quickstart on Tue May 21 23:20:21 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Betanode Workshop'
-=============================================
+############################
+Welcome to Betanode Workshop
+############################
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Index
 
-
-
-Topics
-==================
-
-* What is p5.js?
-* Getting started
-* Variables
-* 'main'
-* Functions
-
-
-
-What is p5.js?
-===============
-
-p5.js is a JavaScript library. That's all you need to know.
-
-Getting Started
-================
-
-Type the following into your script.js file:
-::
-   function setup() {
-       createCanvas(1000, 500);
-   }
-
-   function draw() {
-       // Draw a circle
-       ellipse(200, 200, 200, 200);
-   }
-
-Examples with p5
-================
-
-* Rendering a sin wave.
-* Brownian Motion
-* Patterns: *image to draw with a software tool which responds to the speed of the mouse.*
-* Simulating the solar system.
-* Making a simple pendulum.
-* Colliding Spheres.
-* Simulating free fall in different materials.
-* **Snake**
+   Introduction <intro>
+   Control Flow <control_flow>
+   Some Examples <basic_examples>
+   Functions <functions>
+   More Examples <advanced_examples>

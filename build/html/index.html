@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Welcome to Betanode Workshop’ &mdash; Betanode Workshop  documentation</title>
+  <title>Welcome to Betanode Workshop &mdash; Betanode Workshop  documentation</title>
   
 
   
@@ -34,7 +34,8 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Introduction" href="intro.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -78,15 +79,15 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Welcome to Betanode Workshop’</a></li>
-<li><a class="reference internal" href="#topics">Topics</a></li>
-<li><a class="reference internal" href="#what-is-p5-js">What is p5.js?</a></li>
-<li><a class="reference internal" href="#getting-started">Getting Started</a></li>
-<li><a class="reference internal" href="#examples-with-p5">Examples with p5</a></li>
+              <p class="caption"><span class="caption-text">Index</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="control_flow.html">Control Flow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic_examples.html">Some Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_examples.html">More Examples</a></li>
 </ul>
-</div>
+
             
           
         </div>
@@ -130,7 +131,7 @@
     
       <li><a href="#">Docs</a> &raquo;</li>
         
-      <li>Welcome to Betanode Workshop’</li>
+      <li>Welcome to Betanode Workshop</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -150,50 +151,37 @@
            <div itemprop="articleBody">
             
   <div class="section" id="welcome-to-betanode-workshop">
-<h1>Welcome to Betanode Workshop’<a class="headerlink" href="#welcome-to-betanode-workshop" title="Permalink to this headline">¶</a></h1>
+<h1>Welcome to Betanode Workshop<a class="headerlink" href="#welcome-to-betanode-workshop" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
-</div>
-</div>
-<div class="section" id="topics">
-<h1>Topics<a class="headerlink" href="#topics" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p>What is p5.js?</p></li>
-<li><p>Getting started</p></li>
-<li><p>Variables</p></li>
-<li><p>‘main’</p></li>
-<li><p>Functions</p></li>
+<p class="caption"><span class="caption-text">Index</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#what-is-p5-js">What is p5.js?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#hello-world">Hello World!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#variables">Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#main-and-setup">‘main’ and ‘setup’</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="control_flow.html">Control Flow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="control_flow.html#conditionals">Conditionals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="control_flow.html#loops">Loops</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="basic_examples.html">Some Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="basic_examples.html#example-1">Example 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic_examples.html#example-2">Example 2</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="functions.html">Functions</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_examples.html">More Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="advanced_examples.html#example-1">Example 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="advanced_examples.html#example-2">Example 2</a></li>
+</ul>
+</li>
 </ul>
 </div>
-<div class="section" id="what-is-p5-js">
-<h1>What is p5.js?<a class="headerlink" href="#what-is-p5-js" title="Permalink to this headline">¶</a></h1>
-<p>p5.js is a JavaScript library. That’s all you need to know.</p>
-</div>
-<div class="section" id="getting-started">
-<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
-<p>Type the following into your script.js file:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">function</span> <span class="n">setup</span><span class="p">()</span> <span class="p">{</span>
-    <span class="n">createCanvas</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
-<span class="p">}</span>
-
-<span class="n">function</span> <span class="n">draw</span><span class="p">()</span> <span class="p">{</span>
-    <span class="o">//</span> <span class="n">Draw</span> <span class="n">a</span> <span class="n">circle</span>
-    <span class="n">ellipse</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">);</span>
-<span class="p">}</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="examples-with-p5">
-<h1>Examples with p5<a class="headerlink" href="#examples-with-p5" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p>Rendering a sin wave.</p></li>
-<li><p>Brownian Motion</p></li>
-<li><p>Patterns: <em>image to draw with a software tool which responds to the speed of the mouse.</em></p></li>
-<li><p>Simulating the solar system.</p></li>
-<li><p>Making a simple pendulum.</p></li>
-<li><p>Colliding Spheres.</p></li>
-<li><p>Simulating free fall in different materials.</p></li>
-<li><p><strong>Snake</strong></p></li>
-</ul>
 </div>
 
 
@@ -201,6 +189,13 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="intro.html" class="btn btn-neutral float-right" title="Introduction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
   
 
   <hr/>

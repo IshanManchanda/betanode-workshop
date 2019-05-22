@@ -8,6 +8,7 @@ let radius = 250;
 
 function draw() {
 	ellipse(x, y, radius, radius);
+	// Every time draw is called, x is updated to 2 + its initial value
 	x = x + 2;
 
 
