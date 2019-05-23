@@ -89,6 +89,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">More Examples</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#example-1-sine-wave">Example 1: Sine Wave</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#example-2-brownian-motion">Example 2: Brownian Motion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#other-examples">Other Examples</a></li>
 </ul>
 </li>
 </ul>
@@ -169,9 +170,17 @@ phi = Phase</p>
 </div>
 <div class="section" id="example-2-brownian-motion">
 <h2>Example 2: Brownian Motion<a class="headerlink" href="#example-2-brownian-motion" title="Permalink to this headline">¶</a></h2>
+<p>Brownian motion is random motion of particles.
+We will simulate random motion by giving particles an a random initial velocity.
+After that, each time draw is called, we will apply a random acceleration to the particle.</p>
+<p>We will use pVectors to represent both:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">velocity</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="nx">acceleration</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="other-examples">
+<h2>Other Examples<a class="headerlink" href="#other-examples" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p>Rendering a sin wave.</p></li>
-<li><p>Brownian Motion</p></li>
 <li><p>Patterns: <em>image to draw with a software tool which responds to the speed of the mouse.</em></p></li>
 <li><p>Simulating the solar system.</p></li>
 <li><p>Making a simple pendulum.</p></li>

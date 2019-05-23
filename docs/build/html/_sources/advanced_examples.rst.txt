@@ -20,8 +20,17 @@ phi = Phase
 Example 2: Brownian Motion
 ==========================
 
-* Rendering a sin wave.
-* Brownian Motion
+Brownian motion is random motion of particles.
+We will simulate random motion by giving particles an a random initial velocity.
+After that, each time draw is called, we will apply a random acceleration to the particle.
+
+We will use pVectors to represent both:
+::
+   velocity.add(acceleration);
+
+
+Other Examples
+==============
 * Patterns: *image to draw with a software tool which responds to the speed of the mouse.*
 * Simulating the solar system.
 * Making a simple pendulum.
