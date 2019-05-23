@@ -165,16 +165,16 @@
 <h2>Arrays<a class="headerlink" href="#arrays" title="Permalink to this headline">¶</a></h2>
 <p>Arrays are a type of data structure in javascript. They are used to store multiple values into a single variable.
 Eg,</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">var</span> <span class="n">array_name</span> <span class="o">=</span> <span class="p">[</span><span class="n">item1</span><span class="p">,</span> <span class="n">item2</span><span class="p">,</span> <span class="o">...</span><span class="p">];</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">array_name</span> <span class="o">=</span> <span class="p">[</span><span class="nx">item1</span><span class="p">,</span> <span class="nx">item2</span><span class="p">,</span> <span class="p">...];</span>
 </pre></div>
 </div>
 <p>To access items in an array,</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">let</span> <span class="n">item1_value</span> <span class="o">=</span> <span class="n">array_name</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
-<span class="o">//</span> <span class="n">Here</span> <span class="n">we</span> <span class="n">put</span> <span class="n">the</span> <span class="n">index</span> <span class="n">of</span> <span class="n">the</span> <span class="n">value</span> <span class="n">we</span> <span class="n">want</span> <span class="n">to</span> <span class="n">access</span> <span class="ow">in</span> <span class="n">square</span> <span class="n">brackets</span><span class="o">.</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">let</span> <span class="nx">item1_value</span> <span class="o">=</span> <span class="nx">array_name</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+<span class="c1">// Here we put the index of the value we want to access in square brackets.</span>
 </pre></div>
 </div>
 <p>Using the same syntax to access items in an array, we are also able to change items.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">array_name</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;some value&#39;</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">array_name</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;some value&#39;</span>
 </pre></div>
 </div>
 </div>
@@ -182,11 +182,11 @@ Eg,</p>
 <h2>Objects<a class="headerlink" href="#objects" title="Permalink to this headline">¶</a></h2>
 <p>In the above context objects are a more general form of an array, the major difference is, instead of using index
 values to get items, objects use the following syntax,</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> <span class="o">//</span> <span class="n">defining</span> <span class="n">the</span> <span class="nb">object</span>
- <span class="n">var</span> <span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="n">firstName</span><span class="p">:</span> <span class="s2">&quot;John&quot;</span><span class="p">,</span> <span class="n">lastName</span><span class="p">:</span> <span class="s2">&quot;Doe&quot;</span><span class="p">;</span> <span class="n">age</span><span class="p">:</span><span class="mi">34</span><span class="p">};</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span> <span class="c1">// defining the object</span>
+ <span class="kd">var</span> <span class="nx">person</span> <span class="o">=</span> <span class="p">{</span><span class="nx">firstName</span><span class="o">:</span> <span class="s2">&quot;John&quot;</span><span class="p">,</span> <span class="nx">lastName</span><span class="o">:</span> <span class="s2">&quot;Doe&quot;</span><span class="p">;</span> <span class="nx">age</span><span class="o">:</span><span class="mi">34</span><span class="p">};</span>
 
-<span class="o">//</span> <span class="n">accessing</span> <span class="n">items</span>
-<span class="n">let</span> <span class="n">fullName</span> <span class="o">=</span> <span class="n">person</span><span class="o">.</span><span class="n">firstName</span> <span class="o">+</span> <span class="n">person</span><span class="o">.</span><span class="n">lastName</span>
+<span class="c1">// accessing items</span>
+<span class="kd">let</span> <span class="nx">fullName</span> <span class="o">=</span> <span class="nx">person</span><span class="p">.</span><span class="nx">firstName</span> <span class="o">+</span> <span class="nx">person</span><span class="p">.</span><span class="nx">lastName</span>
 </pre></div>
 </div>
 </div>
@@ -196,9 +196,11 @@ values to get items, objects use the following syntax,</p>
 which can be accessed with the mag() and heading() methods respectively.)
 These are especially useful when one is simulating motion.
 To create a vector,</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">createVector</span><span class="p">([</span><span class="n">x</span><span class="p">],</span> <span class="p">[</span><span class="n">y</span><span class="p">],</span> <span class="p">[</span><span class="n">z</span><span class="p">])</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">createVector</span><span class="p">([</span><span class="nx">x</span><span class="p">],</span> <span class="p">[</span><span class="nx">y</span><span class="p">],</span> <span class="p">[</span><span class="nx">z</span><span class="p">])</span>
 </pre></div>
 </div>
+<p>Since vectors represent groupings of values, we cannot simply use traditional addition/multiplication/etc.
+Instead, we’ll need to do some “vector” math, which is made easy by the methods inside the p5.Vector class.</p>
 <p>The p5.vector has many useful methods that we will use frequently.
 Here are some listed:
 * toString()

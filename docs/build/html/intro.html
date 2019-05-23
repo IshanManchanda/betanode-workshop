@@ -92,6 +92,7 @@
 <li class="toctree-l1"><a class="reference internal" href="control_flow.html">Control Flow</a></li>
 <li class="toctree-l1"><a class="reference internal" href="basic_examples.html">Some Examples</a></li>
 <li class="toctree-l1"><a class="reference internal" href="functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datastructures.html">Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="advanced_examples.html">More Examples</a></li>
 </ul>
 
@@ -169,14 +170,15 @@
 <h2>Hello World!<a class="headerlink" href="#hello-world" title="Permalink to this headline">¶</a></h2>
 <p>Hello world is p5js is slightly different than in most other languages.
 We draw a line from the Origin (0, 0) to a point (400, 400).
-Type the following into your script.js file:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">function</span> <span class="n">setup</span><span class="p">()</span> <span class="p">{</span>
-    <span class="n">createCanvas</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+Type the following into your script.js file:
+.. code-block:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">function</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">createCanvas</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
 <span class="p">}</span>
 
-<span class="n">function</span> <span class="n">draw</span><span class="p">()</span> <span class="p">{</span>
-    <span class="o">//</span> <span class="n">Draw</span> <span class="n">a</span> <span class="n">line</span>
-    <span class="n">line</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">);</span>
+<span class="kd">function</span> <span class="nx">draw</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Draw a line</span>
+    <span class="nx">line</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">200</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
 </div>
@@ -191,12 +193,12 @@ Inside the draw function, the <cite>line</cite> function is called which draws a
 <p>Variables are containers that store data.
 This containers can store any type of data, be it a name, a mobile number, an Aadhar number, an email address, and so on.</p>
 <p>The basic syntax to create a variable is:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">let</span> <span class="n">my_varaible_name</span> <span class="o">=</span> <span class="n">my_variable_value</span><span class="p">;</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">let</span> <span class="nx">my_varaible_name</span> <span class="o">=</span> <span class="nx">my_variable_value</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>For example,</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">let</span> <span class="n">my_number</span> <span class="o">=</span> <span class="mi">7678300391</span><span class="p">;</span>
-<span class="n">let</span> <span class="n">my_email_id</span> <span class="o">=</span> <span class="s1">&#39;ishanmanchanda70@gmail.com&#39;</span><span class="p">;</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">let</span> <span class="nx">my_number</span> <span class="o">=</span> <span class="mi">7678300391</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">my_email_id</span> <span class="o">=</span> <span class="s1">&#39;ishanmanchanda70@gmail.com&#39;</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>In Javascript, you can also create a variable by saying <cite>var</cite> instead of <cite>let</cite>.</p>

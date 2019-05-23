@@ -21,6 +21,8 @@ project = 'Betanode Workshop'
 copyright = '2019, Ishan Manchanda & Param Kapur'
 author = 'Ishan Manchanda <ishanmanchanda70@gmail.com>, Param Kapur <paramkapur2002@gmail.com>'
 
+highlight_language = 'javascript'
+
 
 # -- General configuration ---------------------------------------------------
 

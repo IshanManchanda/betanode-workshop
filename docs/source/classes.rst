@@ -39,38 +39,38 @@ once there is more than one character.
 **So**, we use a class to create a structure for the definition of the character.
 ::
     class Character {
-      constructor(name, sex, level, max_health, current_health, max_speed, current_speed) {
-        this.name = name;
-        this.sex = sex;
-        this.level = level;
-        this.max_health = max_health;
-        this.current_health = current_health;
-        this.max_speed = max_speed;    // we could also use a ps.Vector object to represent velocity here
-        this.current_speed = current_speed;
-      }
-    }
+		constructor(name, sex, level, max_health, current_health, max_speed, current_speed) {
+			this.name = name;
+			this.sex = sex;
+			this.level = level;
+			this.max_health = max_health;
+			this.current_health = current_health;
+			this.max_speed = max_speed;    // we could also use a ps.Vector object to represent velocity here
+			this.current_speed = current_speed;
+		}
+	}
 
 A constructor function initializes all the required characteristics of the class.
 Continuing with our example,
 ::
 
     class Character {
-      constructor(name, sex, level, max_health, current_health, max_speed, current_speed) {
-        this.name = name;
-        this.sex = sex;
-        this.level = level;
-        this.max_health = max_health;
-        this.current_health = current_health;
-        this.max_speed = max_speed;    // we could also use a ps.Vector object to represent velocity here
-        this.current_speed = current_speed;
-      }
-    }
+		constructor(name, sex, level, max_health, current_health, max_speed, current_speed) {
+			this.name = name;
+			this.sex = sex;
+			this.level = level;
+			this.max_health = max_health;
+			this.current_health = current_health;
+			this.max_speed = max_speed;    // we could also use a ps.Vector object to represent velocity here
+			this.current_speed = current_speed;
+		}
 
-    sprint {
-        this.current_speed += 25
-    }
+	    sprint() {
+	        this.current_speed += 25
+	    }
 
-    take_damage {
-        this.current_health -= 25
-    }
+	    take_damage() {
+	        this.current_health -= 25
+	    }
+	}
 
