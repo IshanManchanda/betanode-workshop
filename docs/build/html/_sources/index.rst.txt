@@ -10,4 +10,5 @@ Welcome to Betanode Workshop
    Control Flow <control_flow>
    Some Examples <basic_examples>
    Functions <functions>
+   Data Structures <datastructures>
    More Examples <advanced_examples>

@@ -161,9 +161,48 @@
 </div>
 <div class="section" id="conditionals">
 <h2>Conditionals<a class="headerlink" href="#conditionals" title="Permalink to this headline">¶</a></h2>
+<p>Conditionals allow programmers to perform certain tasks when a particular condition is met. They are a fundamental principle of programming.
+Conditionals are a usually implemented through an if…else… structure.
+They control behavior in JavaScript and determine whether or not pieces of code can run.</p>
+<p>For example in javascript,</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="n">hour</span> <span class="o">&lt;</span> <span class="mi">12</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">greeting</span> <span class="o">=</span> <span class="s2">&quot;Good Morning&quot;</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">hour</span> <span class="o">&lt;</span> <span class="mi">17</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">greeting</span> <span class="o">=</span> <span class="s2">&quot;Good Afternoon&quot;</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="n">greeting</span> <span class="o">=</span> <span class="s2">&quot;Good Evening&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
 </div>
 <div class="section" id="loops">
 <h2>Loops<a class="headerlink" href="#loops" title="Permalink to this headline">¶</a></h2>
+<p>Loops tell the computer to perform a certain task repeatedly, a certain number of times or until a condition is met.
+Very often when you write code, you want the same block of code to run over and over again in a row.
+Instead of adding several almost equal lines in a script we can use loops to perform a task like this.</p>
+<p>There are two different kinds of loops in Javascript,</p>
+<p><strong>for - loops through a block of code a specified number of times</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="p">(</span><span class="n">var</span> <span class="o">=</span> <span class="n">start</span><span class="p">;</span> <span class="n">var</span> <span class="o">&lt;=</span> <span class="n">end</span><span class="p">;</span> <span class="n">var</span> <span class="o">=</span> <span class="n">var</span> <span class="o">+</span> <span class="n">increment</span><span class="p">)</span> <span class="p">{</span>
+        <span class="o">//</span> <span class="n">code</span> <span class="n">that</span> <span class="ow">is</span> <span class="n">run</span> <span class="n">multiple</span> <span class="p">(</span><span class="n">end</span> <span class="o">-</span> <span class="n">start</span><span class="p">)</span> <span class="n">times</span><span class="o">.</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>To control the behaviour of the for loop we use an increment variable, in this case its ‘var’.
+<strong>while - loops through a block of code while a specified condition is true.</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">while</span> <span class="p">(</span><span class="n">var</span> <span class="o">&lt;=</span> <span class="n">end_value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="o">//</span> <span class="n">code</span> <span class="n">that</span> <span class="ow">is</span> <span class="n">executed</span> <span class="n">until</span> <span class="n">the</span> <span class="n">above</span> <span class="n">condition</span> <span class="ow">in</span> <span class="n">met</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>The *do…while…* loop is variant of the while loop, it contains a block of code that is executed once, then a while loop is executed.,</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">do</span> <span class="p">{</span>
+           <span class="o">//</span> <span class="n">code</span> <span class="n">that</span> <span class="ow">is</span> <span class="n">executed</span> <span class="n">once</span>
+    <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="n">var</span> <span class="o">&lt;=</span> <span class="n">end_value</span><span class="p">)</span> <span class="p">{</span>
+           <span class="o">//</span> <span class="n">code</span> <span class="n">that</span> <span class="ow">is</span> <span class="n">executed</span> <span class="n">multiple</span> <span class="n">times</span><span class="o">.</span>
+    <span class="p">}</span>
+</pre></div>
+</div>
+<p>There are still other variation of loops such as the ‘for…in…’ loop, but they all follow the same basic syntax.</p>
 </div>
 </div>
 

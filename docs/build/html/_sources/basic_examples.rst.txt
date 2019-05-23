@@ -6,8 +6,8 @@ Some Examples
    :maxdepth: 2
    :caption: Some Examples
 
-Example 1
-=========
+Example 1: Bouncing Ball
+========================
 
 
 
