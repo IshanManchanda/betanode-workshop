@@ -6,12 +6,19 @@ More Examples
    :maxdepth: 2
    :caption: More Examples
 
-Example 1
-=========
+Example 1: Sine Wave
+====================
+
+y = A * sin(kx - phi),
+
+A = Amplitude,
+k = Phase Difference between adjacent particles,
+x = Position of the particle,
+phi = Phase
 
 
-Example 2
-=========
+Example 2: Brownian Motion
+==========================
 
 * Rendering a sin wave.
 * Brownian Motion
