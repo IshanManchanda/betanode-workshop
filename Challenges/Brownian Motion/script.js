@@ -8,11 +8,13 @@ class Particle {
 	}
 
 	check_bounds() {
-		if (this.position.x >= width - this.size || this.position.x <= this.size) {
+		if (this.position.x >= width - this.size ||
+			this.position.x <= this.size) {
 			this.velocity.x *= -1;
 		}
 
-		if (this.position.y >= height - this.size || this.position.y <= this.size) {
+		if (this.position.y >= height - this.size ||
+			this.position.y <= this.size) {
 			this.velocity.y *= -1;
 		}
 	}
@@ -29,7 +31,8 @@ class Particle {
 
 	draw() {
 		fill(this.color);
-		ellipse(this.position.x, this.position.y, this.size * 2, this.size * 2);
+		ellipse(this.position.x, this.position.y,
+			 this.size * 2, this.size * 2);
 	}
 }
 
@@ -41,12 +44,14 @@ function setup() {
 
 	// Create new particles with random properties and store references to them
 	for (let i = 0; i < 10; i++) {
-		particles.push(new Particle(
-			createVector(random(100, width - 100), random(100, height - 100)),
-			createVector(random(-5, 5), random(-5, 5)),
-			random(20, 50),
-			color(random(255), random(255), random(255))
-		));
+		particles.push(
+			new Particle(
+				createVector(random(100, width - 100), random(100, height - 100)),
+				createVector(random(-5, 5), random(-5, 5)),
+				random(20, 50),
+				color(random(255), random(255), random(255))
+			)
+		);
 	}
 }
 

@@ -22,6 +22,30 @@ class Character {
 	}
 }
 
-function draw() {
+let Dora = new Character("Dora the Explorer", "Female", 0, 100, 100)
 
+
+class Ball {
+	constructor(position, speed, radius, color) {
+		this.position = position;
+		this.speed = speed;
+		this.radius = radius;
+		this.color = color;
+	}
+
+	check_walls() {
+		if (this.position.x >= width) {
+			this.speed = -this.speed;
+		}
+
+		if (this.position.x <= 0) {
+			this.speed = -this.speed;
+		}
+	}
 }
+
+
+
+let Ball1 = new Ball(10, 10, 10, 50, (10, 20, 30))
+
+Ball1.check_walls()

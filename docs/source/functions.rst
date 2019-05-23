@@ -34,6 +34,7 @@ window function.
 Syntax,
 ::
     functionName(arguments);
+
 If your function was defined without parameters,
 ::
     functionName();

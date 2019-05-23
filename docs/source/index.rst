@@ -11,4 +11,5 @@ Welcome to Betanode Workshop
    Some Examples <basic_examples>
    Functions <functions>
    Data Structures <datastructures>
+   Classes and Objects <classes>
    More Examples <advanced_examples>

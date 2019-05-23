@@ -1,6 +1,6 @@
-#############
+###################
 Classes and Objects
-#############
+###################
 
 .. toctree::
    :maxdepth: 2
@@ -73,4 +73,3 @@ Continuing with our example,
 	        this.current_health -= 25
 	    }
 	}
-

@@ -26,7 +26,7 @@ After that, each time draw is called, we will apply a random acceleration to the
 
 We will use pVectors to represent both:
 ::
-   velocity.add(acceleration);
+	velocity.add(acceleration);
 
 
 Other Examples
