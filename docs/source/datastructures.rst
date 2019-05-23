@@ -50,7 +50,7 @@ Since vectors represent groupings of values, we cannot simply use traditional ad
 Instead, we'll need to do some "vector" math, which is made easy by the methods inside the p5.Vector class.
 
 The p5.vector has many useful methods that we will use frequently.
-Here are some listed
+Here are some listed:
 
 * toString()
 * copy()
