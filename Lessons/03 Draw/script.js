@@ -7,9 +7,10 @@ let y = 255;
 let radius = 250;
 
 function draw() {
-	ellipse(x, y, radius, radius);
+	//background(0);
+	//ellipse(x, y, radius, radius);
 	// Every time draw is called, x is updated to 2 + its initial value
-	x = x + 2;
+	//	x = x + 2;
 
 
 	// Background allows us to set a background color
@@ -19,8 +20,8 @@ function draw() {
 
 
 	// We can also change colors using variables
-	// background(255);
-	// fill(x, y - x, 0);
-	// ellipse(x, y, radius, radius);
-	// x = x + 1;
+	background(255);
+	fill(x, y - x, x);
+	ellipse(x, y, radius, radius);
+	x = x + 1;
 }
