@@ -16,7 +16,7 @@ Hello World!
 
 Hello world is p5js is slightly different than in most other languages.
 We draw a line from the Origin (0, 0) to a point (400, 400).
-Type the following into your script.js file:
+Type the following into your sketch.js file:
 ::
    function setup() {
        createCanvas(1000, 500);
