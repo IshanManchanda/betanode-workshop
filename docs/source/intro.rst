@@ -9,7 +9,9 @@ Introduction
 What is p5.js?
 ==============
 
-p5.js is a JavaScript library. That's all you need to know.
+p5.js is a JavaScript library.
+In a nutshell, it lets us do a lot of cool stuff without writing much code.
+That's all you need to know (for now!)
 
 Hello World!
 ============
@@ -46,7 +48,7 @@ The basic syntax to create a variable is:
 
 For example,
 ::
-   let my_number = 7678300391;
+   let my_number = 1234567890;
    let my_email_id = 'ishanmanchanda70@gmail.com';
 
 In Javascript, you can also create a variable by saying `var` instead of `let`.

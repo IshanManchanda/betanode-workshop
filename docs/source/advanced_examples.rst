@@ -9,7 +9,7 @@ More Examples
 Example 1: Sine Wave
 ====================
 
-y = A * sin(kx - phi),
+`y = A * sin(kx - phi)`, where:
 
 A = Amplitude,
 k = Phase Difference between adjacent particles,
@@ -31,9 +31,9 @@ We will use pVectors to represent both:
 
 Other Examples
 ==============
-* Patterns: *image to draw with a software tool which responds to the speed of the mouse.*
+* Patterns: *draw an image with a software tool which responds to the speed of the mouse.*
 * Simulating the solar system.
 * Making a simple pendulum.
 * Colliding Spheres.
 * Simulating free fall in different materials.
-* **Snake**
+* **Snake**: If time permits, we will design (live!) the Snake game to demonstrate how to break a complex problem into easily-solvable components.

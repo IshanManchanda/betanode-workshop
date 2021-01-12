@@ -34,7 +34,7 @@ values to get items, objects use the following syntax,
     var person = {firstName: "John", lastName: "Doe"; age:34};
 
    // accessing items
-   let fullName = person.firstName + person.lastName
+   let fullName = person.firstName + " " + person.lastName
 
 Vectors
 ########
@@ -52,21 +52,18 @@ Instead, we'll need to do some "vector" math, which is made easy by the methods 
 The p5.vector has many useful methods that we will use frequently.
 Here are some listed:
 
-* toString()
 * copy()
-* add()  //to perform vector addition
+* add()  // to perform vector addition
 * sub()
-* mult()  //multiply the vector by a scalar
+* mult()  // multiply the vector by a scalar
 * div()
 * mag()   // calculates magnitude of the vector
 * magSq()  // xx + yy + zz
 * dot()  // dot product
-* cross  //cross product
+* cross  // cross product
 * dist()
 * normalize()
 * heading()
 * rotate()
 * angleBetween()
 * equals()
-* random2D()
-* random3D()

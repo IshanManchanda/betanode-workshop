@@ -9,10 +9,10 @@ function setup() {
 
 	// Assign a random initial position and velocity
 	// random(lower, upper) returns a value in [lower, upper]
-	x = random(20, width - 20);
-	y = random(20, height - 20);
+	x = random(radius * 1.2, width - radius * 1.2);
+	y = random(radius * 1.2, height - radius * 1.2);
 
-	velocity_x = random(width / 200, width / 40);
+	velocity_x = random(width / 200, width / 80);
 	velocity_y = random(height / 200, height / 40);
 }
 

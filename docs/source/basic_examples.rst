@@ -11,6 +11,6 @@ Example 1: Bouncing Ball
 
 
 
-Example 2
-=========
+Example 2: <Your idea here>
+===========================
 

@@ -13,7 +13,7 @@ let radius = 20;
 function draw() {
 	background(0);
 	ellipse(x, y, radius, radius);
-	x = x + 2;
+	x = x + 3;
 	myVector.x += 2;
 	myVector.y += 2;
 

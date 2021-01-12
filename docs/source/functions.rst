@@ -11,10 +11,9 @@ What is a function?
 
 * A function is a subprogram designed to perform a particular task.
 * Functions are executed when they are called. This is known as invoking a function.
-* Values can be passed into functions and used within the function.
-    * Through arguments that the function may accept
-* Functions always return a value. In JavaScript, if no return value is specified, the function will return undefined.
-* Javascript contains some builtin functions, external libraries like p5 expand the set of these functions.
+* Values can be passed into functions and used within the function. This is done through arguments that the function may accept
+* Functions can return a value. In JavaScript, if no return value is specified, the function will return `undefined`.
+* Javascript contains some built-in functions, external libraries like p5 expand the set of these functions.
 
 Defining a Function
 ====================

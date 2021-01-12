@@ -1,7 +1,3 @@
-function setup() {
-	createCanvas(1000, 500);
-}
-
 class Character {
 	constructor(name, sex, level, max_health, current_health, max_speed, current_speed) {
 		this.name = name;
@@ -22,8 +18,6 @@ class Character {
 	}
 }
 
-let Dora = new Character("Dora the Explorer", "Female", 0, 100, 100)
-
 
 class Ball {
 	constructor(position, speed, radius, color) {
@@ -33,19 +27,51 @@ class Ball {
 		this.color = color;
 	}
 
-	check_walls() {
-		if (this.position.x >= width) {
-			this.speed = -this.speed;
-		}
+	update() {
+		this.position += this.speed;
+	}
 
-		if (this.position.x <= 0) {
+	draw() {
+		fill(this.color);
+		ellipse(this.position, 100, this.radius, this.radius);
+	}
+
+	check_walls() {
+		if (this.position >= width || this.position <= 0) {
 			this.speed = -this.speed;
 		}
 	}
 }
 
 
+let width = 1000, height = 500;
+let Ball1, Ball2;
 
-let Ball1 = new Ball(10, 10, 10, 50, (10, 20, 30))
+function setup() {
+	createCanvas(width, height);
 
-Ball1.check_walls()
+	let Dora = new Character(
+		"Dora the Explorer", "Female", 0, 100, 100
+	);
+	Ball1 = new Ball(
+		10, 10, 100,
+		color(100, 255, 255)
+	);
+
+	Ball2 = new Ball(
+		100, 20, 60,
+		color(255, 100, 100)
+	);
+}
+
+function draw() {
+	background(0);
+
+	Ball1.update();
+	Ball1.check_walls()
+	Ball1.draw();
+
+	Ball2.update();
+	Ball2.check_walls()
+	Ball2.draw();
+}
