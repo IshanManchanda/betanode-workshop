@@ -4,7 +4,8 @@
 Lecture slides and examples repository for Betanode Programming Workshop 2019,
 conducted by Ishan Manchanda and Param Kapur.
 
-https://betanode-workshop.readthedocs.io/
+Lecture Slides: https://betanode-workshop.readthedocs.io/  
+Live Examples: https://ishanmanchanda.github.io/betanode-workshop/
 
 Attendees, you are advised to go through the material to recap what we have covered.
 Feel free to email us for any doubts you may have.
