@@ -10,6 +10,6 @@ Live Examples: https://ishanmanchanda.github.io/betanode-workshop/
 Attendees, you are advised to go through the material to recap what we have covered.
 Feel free to email us for any doubts you may have.
 
-Auditors, please note this is not a standalone resource.
-This material will be difficult to follow without a recording of session.
+Auditors, please note that this is not a standalone resource.
+This material will be difficult to follow without a recording of the session.
 We recommend using the official p5.js tutorial instead: https://p5js.org/learn/
